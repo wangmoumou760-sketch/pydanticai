@@ -1,0 +1,17 @@
+[project]
+name = "pydanticai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "httpx>=0.28.1",
+    "mcp>=1.27.0",
+    "numpy>=2.4.4",
+    "openai>=2.30.0",
+    "pydantic-ai>=1.78.0",
+    "pymysql>=1.1.2",
+    "sqlalchemy>=2.0.49",
+    "xinference>=2.5.0",
+]
